@@ -20,5 +20,7 @@ cp ${SOURCES_DIR}/res/io.conan.desktop AppDir/usr/share/applications/
 mkdir -p AppDir/usr/share/icons/hicolor/192x192/apps
 cp ${SOURCES_DIR}/res/conan.png AppDir/usr/share/icons/hicolor/192x192/apps/
 
+cp ${SOURCES_DIR}/AppRun AppDir
+
 export CONDA_PACKAGES=conan
 ./linuxdeploy-x86_64.AppImage --appdir=AppDir --plugin conda --output appimage
