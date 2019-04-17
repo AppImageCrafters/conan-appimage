@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=conan
+Comment=C/C++ Package Manager for Developers
+TryExec=conan
+Exec=conan %F
+Icon=conan
+Categories=Utility;
+NoDisplay=true
