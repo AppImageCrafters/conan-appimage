@@ -8,3 +8,5 @@ Exec=conan %F
 Icon=conan
 Categories=Utility;
 NoDisplay=true
+
+X-AppImage-Version=1.14.3

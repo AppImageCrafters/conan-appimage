@@ -2,4 +2,4 @@
 # -*- coding: utf-8 -*-
 
 APPDIR=`dirname $0`
-${APPDIR}/usr/conda/bin/python3.7 ${APPDIR}/usr/bin/conan $@
+${APPDIR}/usr/conda/bin/python ${APPDIR}/usr/bin/conan $@
